@@ -17,7 +17,6 @@ spec:
         app: whereami
         environment: dev
     spec:
-      serviceAccountName: gke-workload-identity
       containers:
         - name: whereami-fe
           image: us-docker.pkg.dev/google-samples/containers/gke/whereami:v1.2.22
